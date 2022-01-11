@@ -288,6 +288,7 @@ input, select, textarea {
 				flex-wrap: nowrap;
 				justify-content: space-between;
 			}
+			
 		}
 	
 
@@ -2244,12 +2245,14 @@ input, select, textarea {
 				}
 
 	}
-
+	
 /* Small */
 
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
+	
+	
 
 			body {
 				padding-top: 44px;
@@ -2282,6 +2285,8 @@ input, select, textarea {
 			footer {
 				margin: 2.5em 0 0 0;
 			}
+			
+
 
 				footer > p {
 					font-size: 1.25em;
@@ -2290,6 +2295,7 @@ input, select, textarea {
 			hr {
 				margin: 1.5em 0 2em 0;
 			}
+
 
 		/* Section/Article */
 
@@ -2467,6 +2473,7 @@ input, select, textarea {
 
 	}
 
+
 	#images {
 		display:grid;
 		grid-template-columns: 20% 20% 20% 20%;
@@ -2507,7 +2514,8 @@ input, select, textarea {
 	line-height: 15px;
 } */
 .swathi > img{
-width:100%;
+width:50%;
+background:transparent;
 border-radius:5%;
 
 margin: auto;
@@ -2536,4 +2544,10 @@ background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f
 
 #work{
 	background-color: white;
+}
+@media (max-width: 600px){
+#img > img{
+	width:40px;
+
+}
 }
