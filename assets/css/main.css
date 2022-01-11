@@ -2520,6 +2520,19 @@ margin: auto;
 #img-icon{
 	width:60px;
 }
-#home{
-	background-image:url("")
+#Home{
+background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80')
+}
+.button{
+	background-color: rgb(245, 165, 231);
+}
+#Skills{
+	background-color:white;
+}
+#Projects{
+	background-color:white;
+}
+
+#work{
+	background-color: white;
 }
