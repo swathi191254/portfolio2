@@ -2550,4 +2550,11 @@ background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f
 	width:40px;
 
 }
+.swathi > img{
+	width:40%;
+	background:transparent;
+	border-radius:5%;
+	
+	margin: auto;
+	}
 }
