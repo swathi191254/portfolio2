@@ -2558,3 +2558,18 @@ background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f
 	margin: auto;
 	}
 }
+#work{
+	margin-bottom:-5%;
+}
+
+#Projects {
+	margin-bottom:-5%;
+}
+.Contact{
+	margin: -10%;}
+	.image > img{
+     height: 300px;
+	}
+	#under{
+		margin-left: 14%;
+	}
