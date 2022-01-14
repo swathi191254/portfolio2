@@ -2520,9 +2520,10 @@ border-radius:5%;
 
 margin: auto;
 }
-#gowd > div{
+#gowd {
 	display: grid;
-	
+	gap:5%;
+	grid-template-columns: 45% 45%;
 }
 #img-icon{
 	width:60px;
@@ -2556,6 +2557,10 @@ background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f
 	
 	margin: auto;
 	}
+	#gowd{
+		display: flex;
+		flex-direction:column;
+	}
 }
 #work{
 	margin-bottom:-5%;
@@ -2576,4 +2581,11 @@ background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f
 	}
 	.project-div{
 		margin-bottom:-5%;
+	}
+	#img-icon > img{
+		width:2rem;
+		height:2rem;
+	}
+	#icon{
+		margin-left:50px;
 	}
